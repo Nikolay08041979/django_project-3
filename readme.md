@@ -2,6 +2,17 @@
 
 ## [Выгрузка каталога товаров из csv-файла с сохранением всех позиций в базе данных.](https://github.com/netology-code/dj-homeworks/tree/video/2.1-databases/work_with_database)
 
+### Функционал:
+
+✅ Загружены все данные из [csv файла](https://github.com/Nikolay08041979/django_project-3/blob/master/2.1-databases/work_with_database/phones.csv) в БД posgresql
+
+✅ Выдача страницы по адресу http://127.0.0.1:8000/catalog/ должна полностью соответствовать [макету](https://github.com/Nikolay08041979/django_project-3/blob/master/2.1-databases/work_with_database/res/catalog.png) !!! не могу понять почему не выводится модель телефона
+
+✅ Сортировка по убыванию/возрастанию цены
+
+✅ Сортировка по названию
+
+
 ### Измененя внесены:
 ✅ [phone/modele.py](https://github.com/Nikolay08041979/django_project-3/blob/master/2.1-databases/work_with_database/phones/models.py)
 
@@ -11,8 +22,6 @@
 
 ✅ [phones/admin.py](https://github.com/Nikolay08041979/django_project-3/blob/master/2.1-databases/work_with_database/phones/admin.py)
 
+✅ [main/settings.py](https://github.com/Nikolay08041979/django_project-3/blob/master/2.1-databases/work_with_database/main/settings.py): изменены учетные данные для доступа к postgresql
 
 ## [Делаем онлайн-библиотеку](https://github.com/netology-code/dj-homeworks/tree/video/2.1-databases/models_list_displaying)
-
-### Измененя внесены:
-✅ [stations/views.py](https://github.com/Nikolay08041979/django_project-2/blob/master/1.2-requests-templates/pagination/stations/views.py)

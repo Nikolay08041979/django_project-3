@@ -22,7 +22,7 @@ def show_catalog(request):
         return render(request, template, context)
 
     elif sort_pages == 'name':
-        phones = all_phones.order_by('name')
+        phones = all_phones.order_by('model')
         context = {'phones': phones}
         return render(request, template, context)
 

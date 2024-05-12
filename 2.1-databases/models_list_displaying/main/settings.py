@@ -54,9 +54,9 @@ MIDDLEWARE = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'netology_models_list',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'NAME': 'books_list',
+        'USER': 'postgres',
+        'PASSWORD': 'Liza-26052008',
     }
 }
 
@@ -119,3 +119,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+
+DEFAULT_CHARSET = 'utf-8'

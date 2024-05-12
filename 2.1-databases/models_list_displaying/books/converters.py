@@ -6,6 +6,7 @@ class DateConverter:
    format = '%Y-%m-%d'
 
    def to_python(self, value: str) -> datetime:
+
        return datetime.strptime(value, self.format)
 
    def to_url(self, value: datetime) -> str:
