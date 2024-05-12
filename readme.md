@@ -25,3 +25,5 @@
 ✅ [main/settings.py](https://github.com/Nikolay08041979/django_project-3/blob/master/2.1-databases/work_with_database/main/settings.py): изменены учетные данные для доступа к postgresql
 
 ## [Делаем онлайн-библиотеку](https://github.com/netology-code/dj-homeworks/tree/video/2.1-databases/models_list_displaying)
+
+❌ не могу понять почему не прогружаются данные из json в БД по команде python manage.py loaddata fixtures/books.json
