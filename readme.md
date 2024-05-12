@@ -6,7 +6,7 @@
 
 ✅ Загружены все данные из [csv файла](https://github.com/Nikolay08041979/django_project-3/blob/master/2.1-databases/work_with_database/phones.csv) в БД posgresql
 
-✅ Выдача страницы по адресу http://127.0.0.1:8000/catalog/ должна полностью соответствовать [макету](https://github.com/Nikolay08041979/django_project-3/blob/master/2.1-databases/work_with_database/res/catalog.png) !!! не могу понять почему не выводится модель телефона
+✅ Выдача страницы по адресу http://127.0.0.1:8000/catalog/ должна полностью соответствовать [макету](https://github.com/Nikolay08041979/django_project-3/blob/master/2.1-databases/work_with_database/res/catalog.png)
 
 ✅ Сортировка по убыванию/возрастанию цены
 
